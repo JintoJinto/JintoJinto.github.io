@@ -159,14 +159,17 @@ body, html {
 footer{
   padding:30px;
 }
+
 #mail p{
   font-family: avenir;
   font-size: 22px;
   color:grey;
 }
+
 #socialLinks{
   margin:0px 100px 70px 100px;
 }
+
 #socialLinks img{
   float: right;
   max-height: 50px;
