@@ -88,10 +88,10 @@ main{
   background-size: cover;
 }
 
-#case1 {
+/*#case1 {
   background: url("SKETCH/Case1_Background.png");
   background-size: cover;
-}
+}*/
 
 /*#case1:hover {
   color: black;
@@ -102,12 +102,12 @@ main{
   color:white;
 }
 /*OVERLAY Test*/
-.container {
+#case1 {
     position: relative;
     width: 50%;
 }
 
-.image {
+.image-case-1 {
   opacity: 1;
   display: block;
   width: 100%;
@@ -126,15 +126,15 @@ main{
   -ms-transform: translate(-50%, -50%)
 }
 
-.container:hover .image {
+#case1:hover .image {
   opacity: 0.3;
 }
 
-.container:hover .middle {
+#case1:hover .middle {
   opacity: 1;
 }
 
-.text {
+.text-case-1 {
   background-color: #4CAF50;
   color: white;
   font-size: 16px;
