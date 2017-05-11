@@ -318,6 +318,12 @@ main{
   font-size:50px;
 }
 
+/*design process*/
+.design-process{
+  padding: 20px;
+  margin: auto;
+}
+
 #thanks{
   padding: 60px;
   font-size: 18px;
