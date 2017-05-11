@@ -81,7 +81,7 @@ body, html {
 }
 
 #case1 {
-  background:url("/Users/Jinto/Desktop/CODING ROLLIN/SKETCH/Case1_Background.png");
+  background:url("SKETCH/Case1_Background.png");
   background-size: cover;
 }
 /*#FECF00;*/
