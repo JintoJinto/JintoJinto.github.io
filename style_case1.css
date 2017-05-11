@@ -1,3 +1,33 @@
+.logo {
+  display: inline-block;
+}
+header{
+  margin-top: 20px;
+  padding:30px;
+}
+main{
+  padding:5px;
+  margin: 0 20px;
+}
+#navigation {
+  float: right;
+  padding: 5px, 10px,30px;
+}
+#navigation a{
+  background-color: white;
+  color:black;
+  border-radius:0%;
+}
+
+.nav-link {
+  border-top: solid white 10px;
+  /*font-weight: bold;*/
+}
+
+.nav-link:hover {
+  border-top: solid #FECF00 10px;
+  font-weight: bold;
+}
 body{
   font-family:avenir;
 }
