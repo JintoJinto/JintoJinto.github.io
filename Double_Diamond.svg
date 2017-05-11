@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="1142px" height="294px" viewBox="0 0 1142 294" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3.2 (12043) - http://www.bohemiancoding.com/sketch -->
+    <title>diagrams/Double Diamond</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="100%" y1="50%" x2="0%" y2="50%" id="linearGradient-1">
+            <stop stop-color="#FFE100" offset="0%"></stop>
+            <stop stop-color="#FF4000" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="100%" y1="50%" x2="0%" y2="50%" id="linearGradient-2">
+            <stop stop-color="#007B1D" offset="0%"></stop>
+            <stop stop-color="#FFE851" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="App-theme" sketch:type="MSArtboardGroup" transform="translate(-149.000000, -2051.000000)">
+            <g id="diagrams/Double-Diamond" sketch:type="MSLayerGroup" transform="translate(0.000000, 2047.000000)">
+                <text id="Double-Diamond-Model" sketch:type="MSTextLayer" font-family="Roboto" font-size="24" font-weight="420" sketch:alignment="middle">
+                    <tspan x="594.691406" y="22.3427734" fill="#C20000">Double Diamond Model</tspan>
+                    <tspan x="845.308594" y="22.3427734" font-size="18" fill="#C20000"></tspan>
+                    <tspan x="645.903809" y="50.3427734" font-size="18" fill="#FF6A00">UK Design Council</tspan>
+                </text>
+                <polygon id="Polygon-1" stroke="url(#linearGradient-1)" stroke-width="10" sketch:type="MSShapeGroup" points="441.251953 33.5 709.503906 162.875 441.251953 292.25 173 162.875 "></polygon>
+                <polygon id="Polygon-1-Copy-2" stroke="url(#linearGradient-1)" stroke-width="10" sketch:type="MSShapeGroup" points="441.251953 33.5 709.503906 162.875 441.251953 292.25 173 162.875 "></polygon>
+                <polygon id="Polygon-1-Copy" stroke="url(#linearGradient-2)" stroke-width="10" sketch:type="MSShapeGroup" points="1002.75586 33.5 1271.00781 162.875 1002.75586 292.25 734.503906 162.875 "></polygon>
+                <text id="DISCOVER" sketch:type="MSTextLayer" font-family="Roboto" font-size="18" font-weight="420" fill="#000000">
+                    <tspan x="287.5" y="142.842773">DISCOVER</tspan>
+                    <tspan x="287.5" y="163.842773" font-size="14" font-weight="normal">The nature of the </tspan>
+                    <tspan x="287.5" y="179.842773" font-size="14" font-weight="normal">problems that </tspan>
+                    <tspan x="287.5" y="195.842773" font-size="14" font-weight="normal">need solving</tspan>
+                </text>
+                <text id="scope-broadens" sketch:type="MSTextLayer" transform="translate(283.619686, 89.027720) rotate(-26.000000) translate(-283.619686, -89.027720) " font-family="Roboto" font-size="18" font-weight="420" fill="#888888">
+                    <tspan x="214.619686" y="95.5277201">scope broadens</tspan>
+                </text>
+                <text id="scope-broadens" sketch:type="MSTextLayer" transform="translate(845.761462, 89.027720) rotate(-26.000000) translate(-845.761462, -89.027720) " font-family="Roboto" font-size="18" font-weight="420" fill="#888888">
+                    <tspan x="776.761462" y="95.5277201">scope broadens</tspan>
+                </text>
+                <text id="scope-narrows" sketch:type="MSTextLayer" transform="translate(598.246350, 88.323941) rotate(-334.000000) translate(-598.246350, -88.323941) " font-family="Roboto" font-size="18" font-weight="420" fill="#888888">
+                    <tspan x="529.24635" y="94.8239411">scope narrows</tspan>
+                </text>
+                <text id="scope-narrows" sketch:type="MSTextLayer" transform="translate(1155.380314, 88.323941) rotate(-334.000000) translate(-1155.380314, -88.323941) " font-family="Roboto" font-size="18" font-weight="420" fill="#888888">
+                    <tspan x="1086.38031" y="94.8239411">scope narrows</tspan>
+                </text>
+                <text id="DEFINE" sketch:type="MSTextLayer" font-family="Roboto" font-size="18" font-weight="420" fill="#000000">
+                    <tspan x="483.003906" y="142.842773">DEFINE</tspan>
+                    <tspan x="483.003906" y="163.842773" font-size="14" font-weight="normal">The scope of the </tspan>
+                    <tspan x="483.003906" y="179.842773" font-size="14" font-weight="normal">project according to </tspan>
+                    <tspan x="483.003906" y="195.842773" font-size="14" font-weight="normal">the constraints of </tspan>
+                    <tspan x="483.003906" y="211.842773" font-size="14" font-weight="normal">the business</tspan>
+                </text>
+                <text id="DEVELOP" sketch:type="MSTextLayer" font-family="Roboto" font-size="18" font-weight="420" fill="#000000">
+                    <tspan x="858.503906" y="142.842773">DEVELOP</tspan>
+                    <tspan x="858.503906" y="163.842773" font-size="14" font-weight="normal">Explore, test, and refine </tspan>
+                    <tspan x="858.503906" y="179.842773" font-size="14" font-weight="normal">potential solutions</tspan>
+                </text>
+                <text id="DELIVER" sketch:type="MSTextLayer" font-family="Roboto" font-size="18" font-weight="420" fill="#000000">
+                    <tspan x="1059.88031" y="142.842773">DELIVER</tspan>
+                    <tspan x="1129.69184" y="142.842773" font-size="14" font-weight="normal"></tspan>
+                    <tspan x="1059.88031" y="163.842773" font-size="14" font-weight="normal">1. A viable solution</tspan>
+                    <tspan x="1059.88031" y="179.842773" font-size="14" font-weight="normal">2. A roadmap for </tspan>
+                    <tspan x="1059.88031" y="195.842773" font-size="14" font-weight="normal">implementation</tspan>
+                </text>
+                <g id="3" transform="translate(1244.000000, 140.000000)">
+                    <path d="M23,46 C35.7025492,46 46,35.7025492 46,23 C46,10.2974508 35.7025492,0 23,0 C10.2974508,0 0,10.2974508 0,23 C0,35.7025492 10.2974508,46 23,46 Z" id="Oval" stroke="#979797" fill="#0D801F" sketch:type="MSShapeGroup"></path>
+                    <text sketch:type="MSTextLayer" font-family="Roboto Slab" font-size="18" font-weight="bold" fill="#FFFFFF">
+                        <tspan x="18" y="30">3</tspan>
+                    </text>
+                </g>
+                <g id="2" transform="translate(697.000000, 139.875000)">
+                    <path d="M23,46 C35.7025492,46 46,35.7025492 46,23 C46,10.2974508 35.7025492,0 23,0 C10.2974508,0 0,10.2974508 0,23 C0,35.7025492 10.2974508,46 23,46 Z" id="Oval" stroke="#979797" fill="#FEDE35" sketch:type="MSShapeGroup"></path>
+                    <text sketch:type="MSTextLayer" font-family="Roboto Slab" font-size="18" font-weight="bold" fill="#FFFFFF">
+                        <tspan x="18" y="30">2</tspan>
+                    </text>
+                </g>
+                <g id="1" transform="translate(150.000000, 142.000000)">
+                    <path d="M23,46 C35.7025492,46 46,35.7025492 46,23 C46,10.2974508 35.7025492,0 23,0 C10.2974508,0 0,10.2974508 0,23 C0,35.7025492 10.2974508,46 23,46 Z" id="Oval" stroke="#979797" fill="#C12B04" sketch:type="MSShapeGroup"></path>
+                    <text sketch:type="MSTextLayer" font-family="Roboto Slab" font-size="18" font-weight="bold" fill="#FFFFFF">
+                        <tspan x="18" y="30">1</tspan>
+                    </text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
