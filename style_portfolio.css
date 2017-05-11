@@ -320,8 +320,14 @@ main{
 
 /*design process*/
 .design-process{
-  padding: 20px;
+  padding: 50px 20px;
   margin: auto;
+}
+
+.design-process img-responsive{
+   max-width: 100%;
+   height: auto;
+   display: block;
 }
 
 #thanks{
