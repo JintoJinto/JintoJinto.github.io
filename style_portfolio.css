@@ -29,14 +29,20 @@ main{
   font-weight: bold;
 }
 
+
+/*header {
+  background: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 85px;
+  z-index: 1;
+}*/
 /*HERO IMAGE*/
-/*
-body, html {
-height: 100%;
-}
-*/
+
 .hero-image {
-  background-image: url("#");
+  background-image: url("Background_noise_2.png");
   height: 70%;
   background-position: center;
   background-repeat: no-repeat;
