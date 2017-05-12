@@ -1,0 +1,116 @@
+.logo {
+  display: inline-block;
+}
+header{
+  margin-top: 20px;
+  padding:30px;
+}
+#navigation {
+  float: right;
+  padding: 5px, 10px,30px;
+}
+#navigation a{
+  background-color: white;
+  color:black;
+  border-radius:0%;
+}
+main{
+    padding:5px;
+    margin: 0 20px;
+}
+body{
+  font-family:avenir;
+}
+main img{
+  max-height:500px;
+  padding:10px;
+  margin:auto;
+}
+h6{
+  font-size:34px;
+}
+#context{
+  background: #EEEEEE;
+  padding:50px;
+}
+#role{
+  background: #EEEEEE;
+  padding:20px 50px 50px;
+}
+#problem img{
+  max-width: 80%;
+  padding: 30px;
+}
+#problem{
+  padding:20px 50px 50px;
+  float: left;
+}
+#process{
+  background: #EEEEEE;
+  padding:20px 50px 50px;
+}
+#thanks{
+  padding: 60px;
+  font-size: 18px;
+  color:darkgrey;
+}
+#solution img{
+  max-width:50%;
+}
+#research{
+  padding:50px 50px 20px;
+}
+#insights{
+  padding:20px 50px 20px;
+}
+#insights img{
+  max-width:60%;
+}
+#ideation{
+  padding:20px 50px 20px;
+}
+#script{
+  padding:20px 50px 20px;
+}
+#iterations{
+  padding:20px 50px 20px;
+}
+/*previous next button*/
+.previousNext{
+  margin:auto;
+}
+.previousNext a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+}
+/*hover highlight color*/
+a:hover {
+    background-color: yellow;
+    color: black;
+}
+.previous {
+    background-color: #f1f1f1;
+    color: black;
+}
+.next {
+    background-color: black;
+    color: white;
+}
+
+footer{
+  padding:30px;
+}
+#mail p{
+  font-family: avenir;
+  font-size: 22px;
+  color:grey;
+}
+#socialLinks{
+  margin:0px 100px 70px 100px;
+}
+#socialLinks img{
+  float: right;
+  max-height: 50px;
+  margin: 10px;
+}
