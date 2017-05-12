@@ -12,6 +12,7 @@
   <!-- Latest compiled and minified JavaScript -->
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous">
   </script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
   <!-- nav bar -->
@@ -83,6 +84,27 @@
     <section id="iterations" class="text-center">
       <h4>ITERATIONS</h4>
       <p>We iterated almost everyday</p>
+      <!-- TEST ICON  -->
+
+<script>
+function smile() {
+  var a;
+  a = document.getElementById("div1");
+  a.innerHTML = "&#xf118;";
+  setTimeout(function () {
+      a.innerHTML = "&#xf11a;";
+    }, 1000);
+  setTimeout(function () {
+      a.innerHTML = "&#xf119;";
+    }, 2000);
+  setTimeout(function () {
+      a.innerHTML = "&#xf11a;";
+    }, 3000);
+}
+smile();
+setInterval(smile, 4000);
+</script>
+
       <p>V1</p>
       <p>V2</p>
       <p>V3</p>
