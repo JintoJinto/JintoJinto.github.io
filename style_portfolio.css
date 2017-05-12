@@ -72,6 +72,11 @@ main{
   box-shadow: 9px 9px 40px -1px rgba(0,0,0,0.58);
 }
 
+/*TEST MOVING ICON*/
+#div1 {
+  font-size:48px;
+}
+
 /*
 #case1 {
     position: relative;

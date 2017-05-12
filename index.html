@@ -12,6 +12,7 @@
   </script>
   <link rel="stylesheet" href="style_portfolio.css">
   <script src="simple-scroll.js" charset="utf-8"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </script>
 </head>
 <body>
@@ -36,9 +37,31 @@
           <h1>Hi!</h1>
           <p>I'm a UX designer based in London</p>
           <a href="#"><button class="contact-btn">Can I help you?</button></a>
+
         </div>
       </div>
     </div>
+    <!-- TEST MOVING ICON -->
+    <div id="div1" class="fa"></div>
+
+<script>
+function hand() {
+  var a;
+  a = document.getElementById("div1");
+  a.innerHTML = "&#xf25a;";
+  setTimeout(function () {
+      a.innerHTML = "&#xf256;";
+    }, 500);
+  setTimeout(function () {
+      a.innerHTML = "&#xf259;";
+    }, 1000);
+  setTimeout(function () {
+      a.innerHTML = "&#xf256;";
+    }, 1500);
+}
+hand();
+setInterval(hand, 2000);
+</script>
     <!-- case studies 1+2-->
     <!-- case 1-->
     <div class="row cases">
