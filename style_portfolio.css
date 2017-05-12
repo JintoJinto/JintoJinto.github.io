@@ -271,7 +271,7 @@ main{
   color:grey;
 }
 
-#process img-responsive{
+#process img{
    max-width: 100%;
    height: auto;
    display: block;
