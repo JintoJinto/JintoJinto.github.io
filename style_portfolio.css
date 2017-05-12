@@ -30,11 +30,10 @@ main{
   font-weight: bold;
 }
 
-/*HERO IMAGE*/
 
 /*PARALLAX effect landing*/
 .hero-image {
-  background:#FECF00;
+  background:url('Background_noise_2.png');
   height: 70%;
   background-position: center;
   background-repeat : no-repeat;
@@ -74,7 +73,7 @@ main{
 #case1 img{
   max-width:100%;
 }
-/*
+
 #case1 {
     position: relative;
     width: 50%;
@@ -105,7 +104,7 @@ main{
 
 #case1:hover .middle {
   opacity: 1;
-}*/
+}
 
 .text-case-1 {
   background-color: black;
@@ -170,6 +169,32 @@ main{
 .quokka img {
   max-width: 250px;
   border-radius: 50%;
+}
+
+/******************************/
+main{
+  padding:5px;
+  margin: 0 20px;
+}
+#navigation {
+  float: right;
+  padding: 5px, 10px,30px;
+}
+
+#navigation a{
+  background-color: white;
+  color:black;
+  border-radius:0%;
+}
+
+.nav-link {
+  border-top: solid white 10px;
+  /*font-weight: bold;*/
+}
+
+.nav-link:hover {
+  border-top: solid #FECF00 10px;
+  font-weight: bold;
 }
 
 /******************************/
