@@ -51,11 +51,11 @@ main{
   position: relative;
   top: 50%;
   left: 50%;
-  padding-top:100px;
+  padding-top:250px;
   transform: translate(-50%, -50%);
   color: black;
-  font:24px bold;
-  font-family:avenir;
+  font:28px bold;
+  font-family:futura;
 }
 
 .contact-btn{
