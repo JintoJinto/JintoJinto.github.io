@@ -153,25 +153,55 @@ main{
 #case3 a{
   color:white;
 }
+.image-case-3{
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
 #case4 { background: #EC047C;}
 #case4 a{
   color:white;
+}
+.image-case-4{
+  max-width: 100%;
+  height: auto;
+  display: block;
 }
 #case5 { background: #BD0FE1;}
 #case5 a{
   color:white;
 }
+.image-case-5{
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
 #case6 { background: #FECF00;}
 #case6 a{
   color:white;
+}
+.image-case-6{
+  max-width: 100%;
+  height: auto;
+  display: block;
 }
 #case7 { background: #2F07FF; }
 #case7 a{
   color:white;
 }
+.image-case-7{
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
 #case8 { background: #50E3C2; }
 #case8 a{
   color:white;
+}
+.image-case-8{
+  max-width: 100%;
+  height: auto;
+  display: block;
 }
 
 .case {
