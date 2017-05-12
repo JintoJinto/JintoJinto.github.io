@@ -30,21 +30,11 @@ main{
   font-weight: bold;
 }
 
-
-/*header {
-  background: white;
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  height: 85px;
-  z-index: 1;
-}*/
 /*HERO IMAGE*/
 
 /*PARALLAX effect landing*/
 .hero-image {
-  background-image: url("Background_noise_2.png");
+  background:#FECF00;
   height: 70%;
   background-position: center;
   background-repeat : no-repeat;
