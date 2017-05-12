@@ -5,14 +5,13 @@
   <title>Bootstrap</title>
   <!-- Latest compiled and minified CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" href="style_portfolio.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">
   </script>
-  <!-- Latest compiled and minified JavaScript -->
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous">
   </script>
-  <link rel="stylesheet" href="style_portfolio.css">
   <script src="simple-scroll.js" charset="utf-8"></script>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </script>
 </head>
 <body>
@@ -41,47 +40,50 @@
         </div>
       </div>
     </div>
+
     <!-- TEST MOVING ICON -->
     <div id="div1" class="fa"></div>
+    <script>
+    function hand() {
+      var a;
+      a = document.getElementById("div1");
+      a.innerHTML = "&#xf25a;";
+      setTimeout(function () {
+        a.innerHTML = "&#xf256;";
+      }, 500);
+      setTimeout(function () {
+        a.innerHTML = "&#xf259;";
+      }, 1000);
+      setTimeout(function () {
+        a.innerHTML = "&#xf256;";
+      }, 1500);
+    }
+    hand();
+    setInterval(hand, 2000);
+    </script>
 
-<script>
-function hand() {
-  var a;
-  a = document.getElementById("div1");
-  a.innerHTML = "&#xf25a;";
-  setTimeout(function () {
-      a.innerHTML = "&#xf256;";
-    }, 500);
-  setTimeout(function () {
-      a.innerHTML = "&#xf259;";
-    }, 1000);
-  setTimeout(function () {
-      a.innerHTML = "&#xf256;";
-    }, 1500);
-}
-hand();
-setInterval(hand, 2000);
-</script>
     <!-- case studies 1+2-->
     <!-- case 1-->
     <div class="row cases">
       <section class="col-md-8 case" id="case1">
-        <a href="index_Case1.html"><img src="Case1_Background.png" alt="case1-pic" class="image-case-1">
-          <h3>MSD UNIVADIS</h3>
+        <a href="index_Case1.html"><img src="Case1_inactive.png" alt="case1-pic" class="image-case-1">
+          <!-- <h3>MSD UNIVADIS</h3>
           <h4>Chatbot</h4>
           <h6>Agency: Fred&Farid</h6>
-          <p>A scripted chatbot that engage doctors and push relevant content</p>
-          <div class="middle">
+          <p>A scripted chatbot that engage doctors and push relevant content</p> -->
+          <!-- <div class="middle">
             <div class="text-case-1">A scripted chatbot developed within Wechat environment launched in China in March 2017</div>
-          </div>
+          </div> -->
         </a>
       </section>
       <!-- case 2-->
       <section class="col-md-4 case" id="case2">
-        <h3><a href="#">MSD UNIVADIS</a></h3>
+        <a href="index_Case2.html"><img src="Case2_Background.png" alt="case2-pic" class="image-case-2">
+        <!-- <h3>MSD UNIVADIS</h3>
         <h4>Smart Search</h4>
         <h6>Agency: Fred&Farid</h6>
-        <p>A Wechat official account feature that allows doctors to search info faster</p>
+        <p>A Wechat official account feature that allows doctors to search info faster</p> -->
+        </a>
       </section>
     </div>
     <!-- case studies 3+4-->
@@ -130,20 +132,20 @@ setInterval(hand, 2000);
       </section>
     </div>
     <!-- About-->
-      <div class="row quokka">
-        <section class="col-md-8" id="about">
-          <h2>Hi! nice to meet you.</h2>
-          <p>I’m Estelle, a French Chinese UX designer based in London.<br><br>
-            I believe good design brings value to businesses and users. <br><br>
-            My eclectic background and curious mind help me explore new ways to solve issues, small or big.<br><br>
-            I create seamless and intuitive digital experience that make people’s life easier.</p>
-          </section>
-          <section class="col-md-4" id="quokkaPic">
-            <div class="circle-container">
-              <div class="circle"></div>
-            </div>
-          </section>
-        </div>
+    <div class="row quokka">
+      <section class="col-md-8" id="about">
+        <h2>Hi! nice to meet you.</h2>
+        <p>I’m Estelle, a French Chinese UX designer based in London.<br><br>
+          I believe good design brings value to businesses and users. <br><br>
+          My eclectic background and curious mind help me explore new ways to solve issues, small or big.<br><br>
+          I create seamless and intuitive digital experience that make people’s life easier.</p>
+        </section>
+        <section class="col-md-4" id="quokkaPic">
+          <div class="circle-container">
+            <div class="circle"></div>
+          </div>
+        </section>
+      </div>
       <!-- Design process-->
       <div class="design-process" class="text-center" id="process">
         <h1>DESIGN PROCESS</h1>
