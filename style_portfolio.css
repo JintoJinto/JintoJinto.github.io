@@ -32,13 +32,18 @@ main{
 
 
 /*PARALLAX effect landing*/
-.hero-image {
-  background:url('Background_noise_2.png');
-  height: 70%;
-  background-position: center;
-  background-repeat : no-repeat;
-  background-size: cover;
-  position: relative;
+.parallax {
+    /* The image used */
+    background-image: url('Background_noise_2.png');
+
+    /* Set a specific height */
+    height: 400px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .hero-text {
@@ -67,13 +72,7 @@ main{
   box-shadow: 9px 9px 40px -1px rgba(0,0,0,0.58);
 }
 
-#case1 a{
-  color:white;
-}
-#case1 img{
-  max-width:100%;
-}
-
+/*
 #case1 {
     position: relative;
     width: 50%;
@@ -113,6 +112,15 @@ main{
   padding: 16px 32px;
 }
 /*test overlay end*/
+#case1 { background: #FECF00;}
+#case1 a{
+  color:white;
+}
+#case1 img-responsive{
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
 
 #case2 { background: #2F07FF;}
 #case2 a{
