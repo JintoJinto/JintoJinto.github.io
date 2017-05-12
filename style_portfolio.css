@@ -144,6 +144,11 @@ main{
 #case2 a{
   color:white;
 }
+.image-case-2{
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
 #case3 { background: #50E3C2;}
 #case3 a{
   color:white;
