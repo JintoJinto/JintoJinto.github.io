@@ -116,7 +116,7 @@ main{
 #case1 a{
   color:white;
 }
-#case1 img-responsive{
+.image-case-1{
   max-width: 100%;
   height: auto;
   display: block;
