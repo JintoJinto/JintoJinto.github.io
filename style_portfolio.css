@@ -139,7 +139,7 @@ main{
   height: auto;
   display: block;
 }
-
+/*MODAL BOX?*/
 #case2 { background: #2F07FF;}
 #case2 a{
   color:white;
@@ -149,6 +149,7 @@ main{
   height: auto;
   display: block;
 }
+
 #case3 { background: #50E3C2;}
 #case3 a{
   color:white;
