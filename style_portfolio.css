@@ -6,10 +6,7 @@ header{
   margin-top: 20px;
   padding:30px 50px;
 }
-main{
-  padding:5px;
-  margin: 0 20px;
-}
+
 #navigation {
   float: right;
   font-size: 20px;
@@ -41,16 +38,12 @@ main{
 /*PARALLAX effect landing*/
 .parallax {
     /* The image used */
-    background-image: url('http://wallpapercave.com/wp/tmx6W6N.png');
-
-    /* Set a specific height */
+    background-image: url('UNIVADIS-Chatbot-Image3-case1_800x400.png');
     height: 400px;
-
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
     background-size: cover;
     display: flex;
     align-items: center;
@@ -59,12 +52,6 @@ main{
 
 .hero-text {
   text-align: center;
-  /*position: relative;
-  top: 50%;
-  left: 50%;
-  margin-top: 50px;
-  padding-top:250px;
-  transform: translate(-50%, -50%);*/
   color: black;
   font:28px bold;
   font-family:futura;
@@ -233,10 +220,7 @@ main{
 }
 
 /******************************/
-main{
-  padding:5px;
-  margin: 0 20px;
-}
+
 
 #navigation a{
   background-color: white;
