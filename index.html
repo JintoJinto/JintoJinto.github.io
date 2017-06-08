@@ -28,57 +28,29 @@
       </ul>
     </div>
   </header>
-  <main>
+
+  <main class="parallax">
     <!--FAT IMAGE -->
-    <div class="parallax">
-        <div class="hero-text">
-          <h1>Hi!</h1>
-          <p>I'm a UX designer based in London</p>
-          <a href="#"><button class="contact-btn">Can I help you?</button></a>
-        </div>
+    <div class="hero-text">
+      <h1>Hi!</h1>
+      <p>I'm a UX designer based in London</p>
+      <a href="#"><button class="contact-btn">Can I help you?</button></a>
     </div>
-
-    <!-- TEST MOVING ICON -->
-<div class="row animation">
-  <section class="col-md-4">
-    <div id="div1" class="fa"></div>
-    <script>
-    function hand() {
-      var a;
-      a = document.getElementById("div1");
-      a.innerHTML = "&#xf25a;";
-      setTimeout(function () {
-        a.innerHTML = "&#xf256;";
-      }, 500);
-      setTimeout(function () {
-        a.innerHTML = "&#xf259;";
-      }, 1000);
-      setTimeout(function () {
-        a.innerHTML = "&#xf256;";
-      }, 1500);
-    }
-    hand();
-    setInterval(hand, 2000);
-    </script>
-  </section>
-  <section class="col-md-4">
-  </section>
-  <section class="col-md-4">
-  </section>
-</div>
-
-<!--PORTFOLIO-->
-<div class="row portfolio">
-  <section class="col-md-4 case">
-  </section>
-  <section class="col-md-4 case">
-    <h1>PORTFOLIO</h1>
-    </hgroup>
-  </section>
-  <section class="col-md-4 case">
-  </section>
-    <!--case 1-->
+  </main>
+  <!--PORTFOLIO-->
+  <main class="portfolio">
+    <!--portfolio title-->
+    <div class="row portfolio">
+      <section class="col-md-4 case">
+      </section>
+      <section class="col-md-4 case">
+        <h1>UX PORTFOLIO</h1>
+      </section>
+      <section class="col-md-4 case">
+      </section>
+    </div>
     <div class="row cases">
+      <!--case1 image-->
       <section class="col-md-8 case" id="case1">
         <a href="https://www.estellejin.com/new-page-2"><img src="UNIVADIS-Chatbot-Image3-case1.png" alt="" class="image-case-1">
         </a>
@@ -86,10 +58,6 @@
       <!--case1 text-->
       <section class="col-md-4 case" id="case2">
         <a href="https://www.estellejin.com/new-page-2"><img src="UNIVADIS-Chatbot-Text-case1.png" alt="case2-pic" class="image-case-2">
-        <!-- <h3>MSD UNIVADIS</h3>
-        <h4>Smart Search</h4>
-        <h6>Agency: Fred&Farid</h6>
-        <p>A Wechat official account feature that allows doctors to search info faster</p> -->
         </a>
       </section>
     </div>
@@ -97,91 +65,122 @@
     <div class="row cases">
       <section class="col-md-8 case" id="case4" >
         <a href="index_Case4.html"><img src="Case5_Background.png" alt="case4-pic" class="image-case-4">
-        <!-- <h3><a href="#">PROJECT 4</a></h3>
-        <h4>Mystere et boule de gomme</h4>
-        <h6>General Assembly</h6>
-        <p>Blah blah blah</p> -->
-      </section>
-      <section class="col-md-4 case" id="case3">
-        <a href="index_Case3.html"><img src="" alt="case3-pic" class="image-case-3">
-        <!-- <h3><a href="#">MSD UNIVADIS</a></h3>
-        <h4>Registration page</h4>
-        <h6>Agency: Fred&Farid</h6>
-        <p>A simplified and modern registration page</p> -->
-      </section>
-    </div>
-    <!-- case studies 5+6-->
-    <div class="row cases">
-      <section class="col-md-8 case" id="case5">
-        <a href="index_Case4.html"><img src="Case4_Background.png" alt="case4-pic" class="image-case-4">
-        <!-- <h3><a href="#">FIVE GUYS</a></h3>
-        <h4>Mobile group ordering and payment system</h4>
-        <h6>General Assembly</h6>
-        <p>Design sprint, Usability testing, double diamond design process</p> -->
-      </section>
-      <section class="col-md-4 case" id="case6">
-          <a href="index_Case6.html"><img src="Case6_Background.png" alt="case6-pic" class="image-case-6">
-        <!-- <h3><a href="#">ART BUDDY</a></h3>
-        <h4>A mobile app to find the most inspiring events around you</h4>
-        <h6>General Assembly</h6>
-        <p>Design sprint, User research, Ideation, Sketching</p> -->
-      </section>
-    </div>
-    <!-- case studies 7+8-->
-    <div class="row cases">
-      <section class="col-md-8 case" id="case8">
-        <h3><a href="#">AND DESIGN </a></h3>
-        <h4>brand website</h4>
-        <h6>Freelance</h6>
-        <p>Information Architecture, UI, UX</p>
-      </section>
-      <section class="col-md-4 case" id="case7">
-          <a href="index_Case7.html"><img src="Case7_Background.png" alt="case7-pic" class="image-case-7">
-        <!-- <h3><a href="#">PROJECT 3</a></h3>
-        <h4>E-shop</h4>
-        <h6>General Assembly</h6>
-        <p>Design sprint, Information Architecture, User Flow, Digital Proto</p> -->
-      </section>
-    </div>
-    <!-- About-->
-    <div class="row quokka">
-      <section class="col-md-8" id="about">
-        <h2>Hi! nice to meet you.</h2>
-        <p>I’m Estelle, a French Chinese UX designer based in London.<br><br>
-          I believe good design brings value to businesses and users. <br><br>
-          My eclectic background and curious mind help me explore new ways to solve issues, small or big.<br><br>
-          I create seamless and intuitive digital experience that make people’s life easier.</p>
+          <!-- <h3><a href="#">PROJECT 4</a></h3>
+          <h4>Mystere et boule de gomme</h4>
+          <h6>General Assembly</h6>
+          <p>Blah blah blah</p> -->
         </section>
-        <section class="col-md-4" id="quokkaPic">
-          <div class="circle-container">
-            <div class="circle"></div>
-          </div>
-        </section>
-      </div>
-      <!-- Design process-->
-      <div class="design-process" class="text-center" id="process">
-        <h1>DESIGN PROCESS</h1>
-        <section class="text-center">
-          <img src="Design-process.png" alt="design process">
-        </section>
-      </div>
-      <!--Thanks -->
-      <section id="thanks" class="text-center">
-        <p>Time is precious, so thank you for reading this. <br> If there is anything I could help, let’s meet for coffee or tea!</p>
-      </section>
-    </main>
-    <!-- THAT's the END!-->
-    <footer>
-      <!-- MAIL -->
-      <section id="mail" class="text-center">
-        <p>jing.jin235@gmail.com</p>
-      </section>
-      <section id="socialLinks">
-        <a href="https://www.linkedin.com/in/estellejin"><img src="Icons/Linkedin_social_media_logo.png" alt="Linkedin"></a>
-        <a href="https://medium.com/@estellejin"><img src="Icons/medium_social_media_logo.png" alt="Medium"></a>
-        <a href="https://www.instagram.com/jintojinto/"><img src="Icons/Instagram_social_media_logo.png" alt="Instagram"></a>
-        <a href="https://twitter.com/EstelleJin_"><img src="Icons/Twitter_social_media_logo.png" alt="Twitter"></a>
-      </section>
-    </footer>
-  </body>
-  </html>
+        <section class="col-md-4 case" id="case3">
+          <a href="index_Case3.html"><img src="" alt="case3-pic" class="image-case-3">
+            <!-- <h3><a href="#">MSD UNIVADIS</a></h3>
+            <h4>Registration page</h4>
+            <h6>Agency: Fred&Farid</h6>
+            <p>A simplified and modern registration page</p> -->
+          </section>
+        </div>
+        <!-- case studies 5+6-->
+        <div class="row cases">
+          <section class="col-md-8 case" id="case5">
+            <a href="index_Case4.html"><img src="Case4_Background.png" alt="case4-pic" class="image-case-4">
+              <!-- <h3><a href="#">FIVE GUYS</a></h3>
+              <h4>Mobile group ordering and payment system</h4>
+              <h6>General Assembly</h6>
+              <p>Design sprint, Usability testing, double diamond design process</p> -->
+            </section>
+            <section class="col-md-4 case" id="case6">
+              <a href="index_Case6.html"><img src="Case6_Background.png" alt="case6-pic" class="image-case-6">
+                <!-- <h3><a href="#">ART BUDDY</a></h3>
+                <h4>A mobile app to find the most inspiring events around you</h4>
+                <h6>General Assembly</h6>
+                <p>Design sprint, User research, Ideation, Sketching</p> -->
+              </section>
+            </div>
+            <!-- case studies 7+8-->
+            <div class="row cases">
+              <section class="col-md-8 case" id="case8">
+                <h3><a href="#">AND DESIGN </a></h3>
+                <h4>brand website</h4>
+                <h6>Freelance</h6>
+                <p>Information Architecture, UI, UX</p>
+              </section>
+              <section class="col-md-4 case" id="case7">
+                <a href="index_Case7.html"><img src="Case7_Background.png" alt="case7-pic" class="image-case-7">
+                  <!-- <h3><a href="#">PROJECT 3</a></h3>
+                  <h4>E-shop</h4>
+                  <h6>General Assembly</h6>
+                  <p>Design sprint, Information Architecture, User Flow, Digital Proto</p> -->
+                </section>
+              </div>
+            </main>
+
+            <!-- About-->
+            <div class="row quokka">
+              <section class="col-md-8" id="about">
+                <h2>Hi! nice to meet you.</h2>
+                <p>I’m Estelle, a French Chinese UX designer based in London.<br><br>
+                  I believe good design brings value to businesses and users. <br><br>
+                  My eclectic background and curious mind help me explore new ways to solve issues, small or big.<br><br>
+                  I create seamless and intuitive digital experience that make people’s life easier.</p>
+                </section>
+                <section class="col-md-4" id="quokkaPic">
+                  <div class="circle-container">
+                    <div class="circle"></div>
+                  </div>
+                </section>
+              </div>
+              <!-- Design process-->
+              <div class="design-process" class="text-center" id="process">
+                <h1>DESIGN PROCESS</h1>
+                <section class="text-center">
+                  <img src="Design-process.png" alt="design process">
+                </section>
+              </div>
+              <!--Thanks -->
+              <section id="thanks" class="text-center">
+                <p>Time is precious, so thank you for reading this. <br> If there is anything I could help, let’s meet for coffee or tea!</p>
+              </section>
+            </main>
+<!-- TEST MOVING ICON -->
+            <div class="row animation">
+              <section class="col-md-4">
+                <div id="div1" class="fa"></div>
+                <script>
+                function hand() {
+                  var a;
+                  a = document.getElementById("div1");
+                  a.innerHTML = "&#xf25a;";
+                  setTimeout(function () {
+                    a.innerHTML = "&#xf256;";
+                  }, 500);
+                  setTimeout(function () {
+                    a.innerHTML = "&#xf259;";
+                  }, 1000);
+                  setTimeout(function () {
+                    a.innerHTML = "&#xf256;";
+                  }, 1500);
+                }
+                hand();
+                setInterval(hand, 2000);
+                </script>
+              </section>
+              <section class="col-md-4">
+              </section>
+              <section class="col-md-4">
+              </section>
+            </div>
+<!-- TEST MOVING ICON END-->
+<!-- FOOTER-->
+            <footer>
+              <!-- MAIL -->
+              <section id="mail" class="text-center">
+                <p>jing.jin235@gmail.com</p>
+              </section>
+              <section id="socialLinks">
+                <a href="https://www.linkedin.com/in/estellejin"><img src="Icons/Linkedin_social_media_logo.png" alt="Linkedin"></a>
+                <a href="https://medium.com/@estellejin"><img src="Icons/medium_social_media_logo.png" alt="Medium"></a>
+                <a href="https://www.instagram.com/jintojinto/"><img src="Icons/Instagram_social_media_logo.png" alt="Instagram"></a>
+                <a href="https://twitter.com/EstelleJin_"><img src="Icons/Twitter_social_media_logo.png" alt="Twitter"></a>
+              </section>
+            </footer>
+          </body>
+          </html>
