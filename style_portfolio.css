@@ -1,10 +1,10 @@
 .logo {
   display: inline-block;
-  font-family:futura;
+  font-family:sans-serif;
 }
 header{
   margin-top: 20px;
-  padding:30px;
+  padding:30px 50px;
 }
 main{
   padding:5px;
@@ -12,7 +12,7 @@ main{
 }
 #navigation {
   float: right;
-  padding: 5px, 10px,30px;
+  font-size: 20px;
 }
 
 #navigation a{
@@ -25,23 +25,17 @@ main{
     padding-left: 0;
     margin-bottom: 0;
     list-style: none;
-    font-family: futura;
+    font-family: avenir;
 }
 
 .nav-link {
   border-top: solid white 10px;
-  /*font-weight: bold;*/
 }
 
 .nav-link:hover {
   border-top: solid #FECF00 10px;
   font-weight: bold;
 }
-
-/*#navBar {
-  z-index: 2;
-}*/
-
 
 /*PARALLAX effect landing*/
 .parallax {
@@ -242,10 +236,6 @@ main{
   padding:5px;
   margin: 0 20px;
 }
-#navigation {
-  float: right;
-  padding: 5px, 10px,30px;
-}
 
 #navigation a{
   background-color: white;
@@ -253,10 +243,6 @@ main{
   border-radius:0%;
 }
 
-.nav-link {
-  border-top: solid white 10px;
-  /*font-weight: bold;*/
-}
 
 .nav-link:hover {
   border-top: solid #FECF00 10px;
@@ -326,7 +312,7 @@ main{
 #process h1{
   font-size:50px;
   font-family: avenir;
-  color:grey;
+  color:black;
 }
 
 #process img{
