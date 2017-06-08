@@ -38,7 +38,7 @@ header{
 /*PARALLAX effect landing*/
 .parallax {
     /* The image used */
-    background-image: url('Parralax_background_mountain_rainbow_fog_1440x687.png');
+    background-image: url('/Users/Jinto/Desktop/JintoJinto.github.io/jakob-owens-96969.jpg');
     height: 400px;
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
