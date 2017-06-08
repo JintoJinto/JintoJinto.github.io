@@ -248,7 +248,7 @@ header{
   width: 100%;
   height: auto;
   padding-top: 100%;
-  background: url('linkedin.jpg');
+  background: url('PICTURES/Estelle_jin_pic.png');
   background-size: cover;
 }
 
@@ -284,9 +284,6 @@ header{
   -ms-transform: translate(-50%, -50%);
 }
 
-.quokka h2{
-  font-size:50px;
-}
 
 /*DESIGN PROCESS*/
 .design-process{
