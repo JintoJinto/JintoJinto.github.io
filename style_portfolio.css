@@ -50,11 +50,12 @@ header{
     justify-content: center;
 }
 
-.hero-text {
+.hero-text h1 {
   text-align: center;
-  color: black;
-  font:28px bold;
   font-family:futura;
+  background-color: black;
+  color: white;
+  padding: 10px;
 }
 
 .contact-btn{
