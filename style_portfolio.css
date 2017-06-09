@@ -262,9 +262,10 @@ footer{
   font-size: 22px;
   color:grey;
 }
-#socialLinks{
-  margin:0px 100px 70px 100px;
+.fa{
+  font-size:50px;
 }
+
 #socialLinks img{
   float: right;
   max-height: 50px;
