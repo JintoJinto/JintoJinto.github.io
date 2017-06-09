@@ -262,8 +262,8 @@ footer{
   font-size: 22px;
   color:grey;
 }
-.fa{
-  font-size:50px;
+.animation section.col-md-4 {
+    font-size: 50px;
 }
 
 #socialLinks img{
