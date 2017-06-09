@@ -236,6 +236,10 @@ section.col-md-4.text-center{
   -ms-transform: translate(-50%, -50%);
 }
 
+.process img {
+    max-width: 100%;
+}
+
 .thanks p{
   font-size: 20px;
   color:darkgrey;
