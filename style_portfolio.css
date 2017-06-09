@@ -89,7 +89,6 @@ section.col-md-4.text-center{
   display: block;
 }
 
-/*MODAL BOX?*/
 
 #case2 a{
   color:white;
@@ -188,8 +187,6 @@ section.col-md-4.text-center{
   font-weight: bold;
 }
 
-/*
-
 .circle-container {
   max-width: 250px;
   margin: 0 auto;
@@ -237,7 +234,7 @@ section.col-md-4.text-center{
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
 }
-*/
+
 .about h1{
   color:black;
   font-weight:600;
