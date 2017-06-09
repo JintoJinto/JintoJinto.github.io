@@ -113,6 +113,7 @@ section.col-md-4.text-center{
   height: auto;
   display: block;
   max-height: 400px;
+  margin:auto;
 }
 
 .image-case-5{
@@ -145,7 +146,6 @@ section.col-md-4.text-center{
 
 .case {
   min-height: 400px;
-  max-height:500px;
   padding: 10px;
       /* border: solid 10px white; */
 }
@@ -236,29 +236,8 @@ section.col-md-4.text-center{
   -ms-transform: translate(-50%, -50%);
 }
 
-
-/*DESIGN PROCESS*/
-.design-process{
-  padding: 50px 20px;
-  margin: auto;
-}
-
-#process h1{
-  font-size:50px;
-  font-family: avenir;
-  color:black;
-}
-
-#process img{
-  max-width: 100%;
-  height: auto;
-  display: block;
-}
-
-/*THANKS*/
-#thanks{
-  padding: 60px;
-  font-size: 18px;
+.thanks p{
+  font-size: 20px;
   color:darkgrey;
 }
 
