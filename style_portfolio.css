@@ -80,6 +80,9 @@ section.col-md-4.text-center{
   font-family: futura;
 }
 
+#row-case-1{
+  background-color: #FECF00;
+}
 #case1 {
   padding-left: 50px;
 }
