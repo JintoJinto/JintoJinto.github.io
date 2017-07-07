@@ -91,11 +91,10 @@ section.col-md-4.text-center{
   height: auto;
   display: block;
 }
-
-
-#case2 a{
-  color:white;
+#case-1-text{
+  padding:20px;
 }
+
 .image-case-2{
   max-width: 100%;
   height: auto;
