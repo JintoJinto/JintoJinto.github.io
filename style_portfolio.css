@@ -162,7 +162,18 @@ section.col-md-4.text-center{
   box-shadow: 9px 9px 40px -1px rgba(0,0,0,0.58);
 }
 
-
+/*PARALLAX effect landing*/
+.parallax-portfolio {
+  background-image: url('/Users/Jinto/Desktop/JintoJinto.github.io/PICTURES/ricardo-gomez-angel-176142.jpg');
+  height: 300px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 /*PARALLAX effect landing*/
 .parallax-about {
   background-image: url('/Users/Jinto/Desktop/JintoJinto.github.io/PICTURES/scott-webb-50450.jpg');
@@ -174,16 +185,6 @@ section.col-md-4.text-center{
   display: flex;
   align-items: center;
   justify-content: center;
-}
-
-.hero-text-about{
-  text-align: center;
-  font-family:futura;
-  color: white;
-}
-.hero-text-about h1 {
-  background-color: black;
-  padding: 10px;
 }
 
 
