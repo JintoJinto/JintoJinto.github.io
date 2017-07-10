@@ -82,12 +82,15 @@ section.col-md-4.text-center{
 }
 .portfolio h1{
   font-size: 32px;
+  color:black;
 }
 .portfolio h3{
   font-size: 24px;
+  color:black;
 }
 .portfolio h5{
   font-weight: 400;
+  color:black;
 }
 #row-case-1{
   background-color: #FECF00;
