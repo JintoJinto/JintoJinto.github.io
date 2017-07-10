@@ -78,6 +78,12 @@ section.col-md-4.text-center{
   font-family: futura;
 }
 
+.portfolio p{
+  font-size: 18px;
+}
+.portfolio h1{
+  font-size: 32px;
+}
 #row-case-1{
   background-color: #FECF00;
   padding:50px 100px;
