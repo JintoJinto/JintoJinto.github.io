@@ -181,7 +181,29 @@ section.col-md-4.text-center{
   -moz-box-shadow: 9px 9px 40px -1px rgba(0,0,0,0.58);
   box-shadow: 9px 9px 40px -1px rgba(0,0,0,0.58);
 }
-
+#row-case-5{
+  background-color: #CFE1C8;
+  padding:50px 100px;
+}
+.image-case-5{
+  max-width: 100%;
+  height: auto;
+  display: block;
+  max-height:450px;
+}
+.project-btn-5 {
+  background-color: #CFE1C8;
+  color: black;
+  border-color: black;
+  font-size: 20px;
+}
+.project-btn-5:hover{
+  background-color: black;
+  color: white;
+  -webkit-box-shadow: 9px 9px 40px -1px rgba(0,0,0,0.58);
+  -moz-box-shadow: 9px 9px 40px -1px rgba(0,0,0,0.58);
+  box-shadow: 9px 9px 40px -1px rgba(0,0,0,0.58);
+}
 
 /*PARALLAX effect landing*/
 .parallax-process {
