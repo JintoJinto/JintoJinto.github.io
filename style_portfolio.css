@@ -82,6 +82,10 @@ section.col-md-4.text-center{
 .portfolio h1{
   font-size: 32px;
 }
+.portfolio h5{
+  font-weight: 400;
+
+}
 #row-case-1{
   background-color: #FECF00;
   padding:50px 200px;
