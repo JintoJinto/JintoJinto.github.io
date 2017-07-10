@@ -196,6 +196,9 @@ section.col-md-4.text-center{
 .about p{
   font-size: 20px;
 }
+.brands img{
+  max-height: 400px;
+}
 /**********
 .quokka{
   display: -ms-flex;
