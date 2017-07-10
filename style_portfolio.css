@@ -91,6 +91,7 @@ section.col-md-4.text-center{
   max-width: 100%;
   height: auto;
   display: block;
+  max-height: 450px;
 }
 
 .project-btn-1 {
@@ -134,7 +135,7 @@ section.col-md-4.text-center{
 }
 
 #row-case-3{
-  background-color: #EC047C;
+  background-color: #C35FD8;
   padding:50px 100px;
 }
 .image-case-3{
@@ -144,9 +145,9 @@ section.col-md-4.text-center{
   max-height:450px;
 }
 .project-btn-3 {
-  background-color: #EC047C;
-  color: white;
-  border-color: white;
+  background-color: #C35FD8;
+  color: black;
+  border-color: black;
   font-size: 20px;
 }
 .project-btn-3:hover{
@@ -156,6 +157,31 @@ section.col-md-4.text-center{
   -moz-box-shadow: 9px 9px 40px -1px rgba(0,0,0,0.58);
   box-shadow: 9px 9px 40px -1px rgba(0,0,0,0.58);
 }
+
+#row-case-4{
+  background-color: #EEEEEE;
+  padding:50px 100px;
+}
+.image-case-4{
+  max-width: 100%;
+  height: auto;
+  display: block;
+  max-height:450px;
+}
+.project-btn-4 {
+  background-color: #EEEEEE;
+  color: black;
+  border-color: black;
+  font-size: 20px;
+}
+.project-btn-4:hover{
+  background-color: black;
+  color: white;
+  -webkit-box-shadow: 9px 9px 40px -1px rgba(0,0,0,0.58);
+  -moz-box-shadow: 9px 9px 40px -1px rgba(0,0,0,0.58);
+  box-shadow: 9px 9px 40px -1px rgba(0,0,0,0.58);
+}
+
 
 /*PARALLAX effect landing*/
 .parallax-process {
