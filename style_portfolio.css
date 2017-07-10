@@ -78,9 +78,13 @@ section.col-md-4.text-center{
 
 .portfolio p{
   font-size: 18px;
+  color:black;
 }
 .portfolio h1{
   font-size: 32px;
+}
+.portfolio h3{
+  font-size: 24px;
 }
 .portfolio h5{
   font-weight: 400;
