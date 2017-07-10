@@ -187,13 +187,16 @@ section.col-md-4.text-center{
   justify-content: center;
 }
 
-
-
-#about{
-  font-size: 20px;
-  color:black;
+#about-pic{
+  max-height: 400px;
 }
-
+.about{
+  padding:50px 80px;
+}
+.about p{
+  font-size: 20px;
+}
+/**********
 .quokka{
   display: -ms-flex;
   display: -webkit-flex;
@@ -210,7 +213,7 @@ section.col-md-4.text-center{
   border-radius: 50%;
 }
 
-/******************************/
+********************/
 
 
 #navigation a{
