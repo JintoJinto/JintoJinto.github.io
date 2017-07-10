@@ -176,16 +176,15 @@ section.col-md-4.text-center{
   justify-content: center;
 }
 
-.hero-text{
+.hero-text-about{
   text-align: center;
   font-family:futura;
   color: white;
 }
-.hero-text h1 {
+.hero-text-about h1 {
   background-color: black;
   padding: 10px;
 }
-
 
 
 
