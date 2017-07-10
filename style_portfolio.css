@@ -85,19 +85,18 @@ section.col-md-4.text-center{
 #row-case-1{
   background-color: #FECF00;
   padding:50px 100px;
+  color:white;
 }
 .image-case-1{
   max-width: 100%;
   height: auto;
   display: block;
 }
-#case-1-text{
-  padding:50px ;
-}
+
 .project-btn-1 {
   background-color: #FECF00;
-  color: black;
-  border-color: black;
+  color: white;
+  border-color: white;
   font-size: 20px;
 }
 .project-btn-1:hover{
@@ -111,20 +110,18 @@ section.col-md-4.text-center{
 #row-case-2{
   background-color: #00A59A;
   padding:50px 100px;
+  color:white;
 }
 .image-case-2{
   max-width: 100%;
   height: auto;
   display: block;
 }
-#case-2-text{
-  padding:50px ;
-}
 
 .project-btn-2 {
   background-color: #00A59A;
-  color: black;
-  border-color: black;
+  color: white;
+  border-color: white;
   font-size: 20px;
 }
 
@@ -137,7 +134,7 @@ section.col-md-4.text-center{
 }
 
 #row-case-3{
-  background-color: #E0E3F1;
+  background-color: #EC047C;
   padding:50px 100px;
 }
 .image-case-3{
@@ -145,13 +142,10 @@ section.col-md-4.text-center{
   height: auto;
   display: block;
 }
-#case-3-text{
-  padding:50px ;
-}
 .project-btn-3 {
-  background-color: #E0E3F1;
-  color: black;
-  border-color: black;
+  background-color: #EC047C;
+  color: white;
+  border-color: white;
   font-size: 20px;
 }
 .project-btn-3:hover{
