@@ -150,8 +150,8 @@ header{
   justify-content: center;
 }
 /*PARALLAX ABOUT*/
-.parallax{
-  background-image: url('/Users/Jinto/Desktop/JintoJinto.github.io/PICTURES/scott-webb-50450.jpg');
+.parallax-about{
+  background-image: url('http://JintoJinto.github.io/PICTURES/scott-webb-50450.jpg');
   height: 300px;
   background-attachment: fixed;
   background-position: center;
@@ -163,24 +163,56 @@ header{
 }
 .process{
   padding:50px 100px;
+  background-color: white;
 }
-.my-pic{
-  overflow: hidden;
-  width: 50%;
-  max-height: 400px;
+.about .row{
+  padding:100px 15px;
 }
-.my-pic{
-  height: auto;
-  max-width: 100%;
+.about .container {
+  position: relative;
+  width: 100%;
+}
+.image {
   display: block;
-  background: url('JintoJinto.github.io/PICTURES/Estelle-jin-pic.png');
+  width: 100%;
+  height: auto;
+  background: cover;
+  background-repeat: no-repeat;
+  background-position: center;
   background-size: cover;
 }
-.my-pic img :hover{
-  max-height: auto;
-  max-width: 100%;
-  display: block;
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-image:url("http://JintoJinto.github.io/PICTURES/happyquokka.jpg");
+  background: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
 .about p{
   font-size: 20px;
 }
