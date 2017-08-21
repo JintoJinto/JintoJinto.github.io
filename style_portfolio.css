@@ -1,7 +1,7 @@
 .logo {
   display: inline-block;
   font-family:futura;
-  font-weight: 300;
+  font-size: 20px;
 }
 header{
   margin-top: 20px;
@@ -56,13 +56,13 @@ header{
 }
 .hero-text h1 {
   background-color: black;
+  font-weight: 600;
   padding: 10px;
 }
 .hero-text h3 {
   background-color: black;
   padding: 10px;
 }
-
 .contact-btn {
   background-color: white;
   color: black;
@@ -77,10 +77,6 @@ header{
   box-shadow: 9px 9px 40px -1px rgba(0,0,0,0.58);
 }
 
-section.col-md-4.text-center{
-  padding: 80px 0px;
-  font-family: futura;
-}
 .portfolio {
   background-color:#eff0f2;
 }
@@ -168,10 +164,23 @@ section.col-md-4.text-center{
 .process{
   padding:50px 100px;
 }
-.about img{
+.my-pic{
+  overflow: hidden;
+  width: 50%;
   max-height: 400px;
 }
-
+.my-pic{
+  height: auto;
+  max-width: 100%;
+  display: block;
+  background: url('JintoJinto.github.io/PICTURES/Estelle-jin-pic.png');
+  background-size: cover;
+}
+.my-pic img :hover{
+  max-height: auto;
+  max-width: 100%;
+  display: block;
+}
 .about p{
   font-size: 20px;
 }
@@ -180,7 +189,7 @@ section.col-md-4.text-center{
 }
 
 .about h1{
-  color:black;
+  color:white;
   font-weight:600;
 }
 .process img {
