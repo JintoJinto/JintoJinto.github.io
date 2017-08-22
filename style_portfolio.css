@@ -38,7 +38,7 @@ header{
 
 /*PARALLAX effect landing*/
 .parallax {
-  background-image: url('http://JintoJinto.github.io/PICTURES/Background/cody-davis-253928.jpg');
+  background-image: url("http://jintojinto.github.io/PICTURES/Background/cody-davis-253928.jpg");
   height: 400px;
   background-attachment: fixed;
   background-position: center;
@@ -118,7 +118,7 @@ header{
 }
 
 .parallax-process {
-  background-image: url('http://JintoJinto.github.io/PICTURES/Background/ricardo-gomez-angel1.jpg');
+  background-image: url('http://JintoJinto.github.io/PICTURES/scott-webb-50450.jpg');
   height: 300px;
   background-attachment: fixed;
   background-position: center;
@@ -129,7 +129,7 @@ header{
   justify-content: center;
 }
 .parallax-about{
-  background-image: url('http://JintoJinto.github.io/PICTURES/Background/scott-webb-50450.jpg');
+  background-image: url('http://JintoJinto.github.io/PICTURES/david-clode-341225.jpg');
   height: 300px;
   background-attachment: fixed;
   background-position: center;
@@ -173,7 +173,7 @@ header{
   width: 100%;
   opacity: 0;
   transition: .5s ease;
-  background-image:url("http://JintoJinto.github.io/PICTURES/happyquokka.jpg");
+  background-image:url("http://JintoJinto.github.io/PICTURES/Profile/happyquokka.jpg");
   background: cover;
   background-repeat: no-repeat;
   background-position: center;
