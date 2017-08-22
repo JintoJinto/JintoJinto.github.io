@@ -26,11 +26,9 @@ header{
   margin-bottom: 0;
   list-style: none;
 }
-
 .nav-link {
   border-top: solid white 10px;
 }
-
 .nav-link:hover {
   border-top: solid #FECF00 10px;
   font-weight: bolder;
@@ -80,6 +78,10 @@ header{
 .portfolio{
   background-color:#eff0f2;
 }
+.process{
+  background-color:#eff0f2;
+}
+
 .portfolio .col-md-8 {
     background-color: white;
 }
