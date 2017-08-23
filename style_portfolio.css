@@ -212,70 +212,23 @@ header{
   font-size: 20px;
   color:grey;
 }
-
-#animation {
-    font-size: 40px;
+.footer a{
+  color:#1074B4;
 }
-
+.links{
+  padding:20px;
+}
+#socialLinks{
+  margin:auto;
+}
 #socialLinks img{
   max-height: 50px;
   margin: 10px;
   float:right;
 }
 
-/**********
-.quokka{
-  display: -ms-flex;
-  display: -webkit-flex;
-  display: flex;
-  padding:10px;
-}
-
-.quokka h2{
-  font-size:50px;
-}
-
-.quokka img {
-  max-width: 250px;
-  border-radius: 50%;
-}
-
-*/
 /*
-
-#navigation a{
-  background-color: white;
-  color:black;
-  border-radius:0%;
+#animation {
+    font-size: 40px;
 }
-
-.nav-link:hover {
-  border-top: solid #FECF00 10px;
-  font-weight: bold;
-}
-
-.circle-container {
-  max-width: 250px;
-  margin: 0 auto;
-  padding-top:50px;
-}
-
-.circle {
-  position: relative;
-  border-radius: 50%;
-  width: 100%;
-  height: auto;
-  padding-top: 100%;
-  background: url('PICTURES/Estelle_jin_pic.png');
-  background-size: cover;
-}
-
-.circle:hover {
-  background: url('https://s-media-cache-ak0.pinimg.com/736x/17/40/33/1740333840539a8dea369047aee41d6b.jpg');
-  background-size: cover;
-}
-
-.img-responsive {
-  max-width: 250px;
-  display: block;
-}
+*/
