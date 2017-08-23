@@ -113,7 +113,7 @@ header{
 }
 
 .parallax-process {
-  background-image: url('http://JintoJinto.github.io/PICTURES/joanna-kosinska-129039 (1).jpg');
+  background-image: url('http://JintoJinto.github.io/PICTURES/ricardo-gomez-angel1.jpg');
   height: 300px;
   background-attachment: fixed;
   background-position: center;
@@ -136,11 +136,11 @@ header{
 }
 
 .process{
-  padding:50px 100px;
+  padding:50px 0px;
   background-color: #eff0f2;
 }
 .process .row{
-  padding: 20px 0px;
+  padding: 20px 20px;
 }
 .process img{
   max-width: 100%;
@@ -148,7 +148,7 @@ header{
   display: block;
 }
 .about .row{
-  padding:100px 15px 0px;
+  padding:40px 20px;
 }
 
 .about{
@@ -194,11 +194,6 @@ header{
   left: 50%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
-}
-
-.parallax-about h1{
-  color:white;
-  font-weight:600;
 }
 
 #brands img{
