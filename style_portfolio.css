@@ -78,10 +78,6 @@ header{
 .portfolio{
   background-color:#eff0f2;
 }
-.process{
-  background-color:#eff0f2;
-}
-
 .portfolio .col-md-8 {
     background-color: white;
 }
@@ -99,13 +95,7 @@ header{
   max-width: 100%;
   height: auto;
   display: block;
-  max-height:450px;
-}
-.image-case{
-  max-width: 100%;
-  height: auto;
-  display: block;
-  max-height:450px;
+  max-height:400px;
 }
 .case-text{
   background-color:white;
@@ -123,7 +113,7 @@ header{
 }
 
 .parallax-process {
-  background-image: url('http://JintoJinto.github.io/PICTURES/scott-webb-50450.jpg');
+  background-image: url('http://JintoJinto.github.io/PICTURES/joanna-kosinska-129039 (1).jpg');
   height: 300px;
   background-attachment: fixed;
   background-position: center;
@@ -134,7 +124,7 @@ header{
   justify-content: center;
 }
 .parallax-about{
-  background-image: url('http://JintoJinto.github.io/PICTURES/david-clode-341225.jpg');
+  background-image: url('http://JintoJinto.github.io/PICTURES/scott-webb-50450.jpg');
   height: 300px;
   background-attachment: fixed;
   background-position: center;
@@ -144,15 +134,25 @@ header{
   align-items: center;
   justify-content: center;
 }
+
 .process{
   padding:50px 100px;
-  background-color: white;
+  background-color: #eff0f2;
+}
+.process .row{
+  padding: 20px 0px;
+}
+.process img{
+  max-width: 100%;
+  width: auto;
+  display: block;
 }
 .about .row{
   padding:100px 15px 0px;
 }
-.intro-title{
-  padding: 80px 20px;
+
+.about{
+  background-color:#eff0f2;
 }
 .about .container {
   position: relative;
@@ -195,9 +195,6 @@ header{
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
 }
-.intro{
-  padding: 100px 15px;
-}
 
 .parallax-about h1{
   color:white;
@@ -209,21 +206,21 @@ header{
   width: 100%;
 }
 
-.process img{
-position: relative;
-width: 100%;
-}
 .footer{
-  background-color: #EEEEEE;
+  background-color: white;
+  font-family:futura;
+  font-size: 20px;
+  color:grey;
 }
 
-#animation section.col-md-4 {
-    font-size: 50px;
+#animation {
+    font-size: 40px;
 }
+
 #socialLinks img{
-  float: right;
   max-height: 50px;
   margin: 10px;
+  float:right;
 }
 
 /**********
