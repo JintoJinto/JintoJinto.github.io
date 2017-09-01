@@ -26,11 +26,11 @@ a.navbar-brand{
   border-top: solid white 10px;
 }
 .nav-link:active{
-  border-top: solid #FECF00 10px;
+  border-top: solid #9013FE 10px;
   background-color: white;
 }
 .nav-link:hover {
-  border-top: solid #FECF00 10px;
+  border-top: solid #9013FE 10px;
 }
 .navbar-default .navbar-toggle:focus,
 .navbar-default .navbar-toggle:hover {
@@ -71,7 +71,7 @@ a.navbar-brand{
 
 /*PARALLAX effect landing*/
 .parallax {
-  background-image: url("http://JintoJinto.github.io/PICTURES/cody-davis-253928.jpg");
+  background-image: url("http://JintoJinto.github.io/PICTURES/DirtyFog.jpg");
   height: 400px;
   background-attachment: fixed;
   background-position: center;
@@ -264,8 +264,6 @@ a.navbar-brand{
     font-size: 40px;
 }
 */
-
-
 /*
 #navigation {
   float: right;
